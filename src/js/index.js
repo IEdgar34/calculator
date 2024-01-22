@@ -54,13 +54,13 @@ window.addEventListener("DOMContentLoaded", () => {
     function b() {
         switch (text.value) {
             case "/":
-                input.placeholder = (+input.placeholder / +inp2.placeholder).toFixed(1);
+                input.placeholder = (+input.placeholder / +inp2.placeholder).toFixed(2);
                 text.value = "";
                 inp2.placeholder = "0";
 
                 break;
             case "*":
-                input.placeholder = (+input.placeholder * +inp2.placeholder).toFixed(1);
+                input.placeholder = (+input.placeholder * +inp2.placeholder).toFixed(2);
                 text.value = "";
                 inp2.placeholder = "0";
                 break;
